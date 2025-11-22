@@ -35,7 +35,6 @@ class _Page2State extends State<Page2> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Welcome message
             Text(
               'Select your skin type:',
               style: TextStyle(
