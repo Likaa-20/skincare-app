@@ -35,7 +35,6 @@ class _Page2State extends State<Page2> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Welcome message
             Text(
               'Select your skin type:',
               style: TextStyle(
@@ -47,12 +46,10 @@ class _Page2State extends State<Page2> {
 
             const SizedBox(height: 30),
 
-            // Dropdown menu for skin type selection
             MyDropdownMenuWidget(updateSkin: updateSkin),
 
             const SizedBox(height: 40),
 
-            // Show selected skin type
             Text(
               'You selected: ${selectedSkin.type}',
               style: TextStyle(
@@ -63,7 +60,6 @@ class _Page2State extends State<Page2> {
 
             const SizedBox(height: 40),
 
-            // Button to go to products page
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
